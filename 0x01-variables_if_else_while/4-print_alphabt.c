@@ -7,9 +7,9 @@
 int main(void)
 {
 	int i;
-	char alp[26] = "abcdfghijklmnoprstuvwxyz";
+	char alp[24] = "abcdfghijklmnoprstuvwxyz";
 
-	for (i = 0; i < 26; i++)
+	for (i = 0; i < 24; i++)
 	{
 		printf("%c", alp[i]);
 	}
