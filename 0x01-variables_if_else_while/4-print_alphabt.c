@@ -7,10 +7,11 @@
 int main(void)
 {
 	int i;
+	char alp[26] = "abcdfghijklmnoprstuvwxyz";
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 26; i++)
 	{
-		printf("%d", i);
+		printf("%d\n", alp[i]);
 	}
 	putchar('\n');
 	return (0);
