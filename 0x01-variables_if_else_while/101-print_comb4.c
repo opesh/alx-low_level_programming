@@ -16,7 +16,7 @@ int main(void)
 			{
 				putchar((x % 10) + '0');
 				putchar((y % 10) + '0');
-				putchar(z % 10);
+				putchar((z % 10) + '0');
 				if (x == 7 && y == 8 && z == 9)
 				{
 					continue;
