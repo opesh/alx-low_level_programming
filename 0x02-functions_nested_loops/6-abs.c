@@ -4,10 +4,8 @@
  * @n: integer to affect
  * Return: The value of integer
  */
-int _abs(int c)
+int _abs(int n)
 {
-	int n;
-
 	if (n < 0)
 	{
 		return (n * -1);
