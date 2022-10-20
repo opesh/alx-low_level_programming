@@ -2,9 +2,9 @@
 
 /**
  * mul - function that multiply two integers.
- * @a: first input value to check
- * @b: sec input value to check
- * Return mul.
+ * @a: An input integer
+ * @b: An input integer
+ * Return: result of multiplication
  */
 
 int mul(int a, int b)
