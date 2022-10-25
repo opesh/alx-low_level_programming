@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_arra7 - this code prints n element of an array of integers,
+ * print_array - this code prints n element of an array of integers,
  * followed by a new line
  * @p: array to be printed
  * @n: number of elements to be printed
@@ -16,6 +16,6 @@ void print_array(int *p, int n)
 		if (q != n - 1)
 			printf("%d, ", p[q]);
 		else
-			print("%d", p[q]);
+			printf("%d", p[q]);
 	printf("\n");
 }

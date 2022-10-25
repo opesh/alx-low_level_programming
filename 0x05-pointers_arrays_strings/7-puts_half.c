@@ -2,7 +2,7 @@
 
 /**
  * puts_half - a function that prints half of a string, followed by a new line.
- * @str - An input string
+ * @str:  An input string
  * Return: Nothing
  */
 void puts_half(char *str)
@@ -23,7 +23,7 @@ void puts_half(char *str)
 		}
 	} else if (number % 2)
 	{
-		for (p = (number - 1) / 2; p < number-1; p++)
+		for (p = (number - 1) / 2; p < number - 1; p++)
 		{
 			_putchar(str[p + 1]);
 		}
